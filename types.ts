@@ -12,14 +12,14 @@ total = 0xff0;
 
 // array (type[])
 let items: number[];
-items = [1, 2, 3, 4, "foo"];
+items = [1, 2, 3, 4];
 //     Generic
 let values: Array<number>;
 values = [1, 2, 3];
 
 // tuple
 let title: [number, string];
-title = [1, "foo", 3];
+// title = [1, "foo", 3];
 
 // enum
 enum Colors {
@@ -52,9 +52,8 @@ cart = {
 
 //type inference -> evita tipagem de forma redundante.
 let message2 = "mensagem definida";
-message2 = 1;
+message2 = "1";
 // não necessita tipar com (e: MouseEvent)
 window.addEventListener("click", (e) => {
   console.log(e.target);
-  console.log(e.foo);
 });

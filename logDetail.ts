@@ -14,7 +14,7 @@ type Platform = "Windows" | "Linux" | "Mac Os";
 function renderPlatform(platform: Platform) {
   return platform;
 }
-renderPlatform("ios");
+// renderPlatform("ios");
 
 logDetails(123, "sapato");
 logDetails("123", "sapato");

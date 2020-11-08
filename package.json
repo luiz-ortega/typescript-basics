@@ -1,0 +1,24 @@
+{
+  "name": "typescript-basics",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon dist/classes.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luiz-ortega/typescript-basics.git"
+  },
+  "author": "Luiz Ortega <luizngust@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/luiz-ortega/typescript-basics/issues"
+  },
+  "homepage": "https://github.com/luiz-ortega/typescript-basics#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}
