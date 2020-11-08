@@ -49,3 +49,12 @@ let cart: object;
 cart = {
   key: "fi",
 };
+
+//type inference -> evita tipagem de forma redundante.
+let message2 = "mensagem definida";
+message2 = 1;
+// não necessita tipar com (e: MouseEvent)
+window.addEventListener("click", (e) => {
+  console.log(e.target);
+  console.log(e.foo);
+});
